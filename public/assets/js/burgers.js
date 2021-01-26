@@ -27,7 +27,7 @@ $(function () {
     event.preventDefault();
 
     var newOrder = {
-      name: $("#ca").val().trim(),
+      name: $("#order-name").val().trim(),
       devoured: 0
     };
 

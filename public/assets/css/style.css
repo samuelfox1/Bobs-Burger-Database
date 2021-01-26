@@ -1,19 +1,57 @@
+main {
+  background-image: url('http://getwallpapers.com/wallpaper/full/d/1/7/158375.jpg#.YA-WCKE2o20.link');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+
+}
+
+nav .brand-logo {
+  background-color: rgb(255, 238, 0);
+  color: red;
+  font-size: 32pt;
+}
+
+.menue {
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
+  background-color: rgba(78, 78, 78, .8);
+  text-align: center;
+  width: 30vw;
+  border-radius: 1rem;
+}
+
+.place-order {
+  margin: 0 1rem;
+  text-align: center;
+  background-color: rgba(255, 238, 0, .8);
+  /* width: 30vw; */
+  border-radius: 1rem;
+}
+
+#order-name {
+  background-color: none;
+  text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  /* background: #faebd7; */
 }
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
+/* .create-update-form {
   padding: 5px;
   margin: 5px;
   background: aqua;
-}
+} */
 
-.form-group {
+/* .form-group {
   margin-bottom: 5px;
-}
+} */
