@@ -1,11 +1,11 @@
 <li>
-	{{name}}
-
+	{{name}} 🍔
+	<br>
 	<button class="devoure-status" data-id="{{id}}" data-devoured="{{devoured}}">
-		{{#if devoured}}Eat da burger!{{else}} Order Again!{{/if}}
+		{{#if devoured}}Pickup order!{{else}} Order Again!{{/if}}
 	</button>
 
 	{{#unless devoured}}
-	<button class="delete-order" data-id="{{this.id}}">Delete</button>
+	<button class="delete-order" data-id="{{this.id}}"><i class="material-icons">clear</i></button>
 	{{/unless}}
 </li>

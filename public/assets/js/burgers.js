@@ -59,3 +59,13 @@ $(function () {
     );
   });
 });
+
+$('.orders-btn').on('click', () => {
+  $('#history-items').addClass('hidden')
+  $('#order-items').removeClass('hidden')
+})
+
+$('.history-btn').on('click', () => {
+  $('#order-items').addClass('hidden')
+  $('#history-items').removeClass('hidden')
+})

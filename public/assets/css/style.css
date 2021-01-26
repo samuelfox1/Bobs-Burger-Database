@@ -1,57 +1,160 @@
+body {
+  height: 100vh;
+  font-family: 'Annie Use Your Telescope', cursive;;
+}
+
 main {
   background-image: url('http://getwallpapers.com/wallpaper/full/d/1/7/158375.jpg#.YA-WCKE2o20.link');
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-
+  height: 94vh;
+  padding: 5rem 0;
 }
 
-nav .brand-logo {
+h1, h4{
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+hr {
+  margin: 0;
+}
+
+nav {
   background-color: rgb(255, 238, 0);
   color: red;
-  font-size: 32pt;
+  /* font-size: 32pt; */
+  /* padding-bottom: .25rem; */
 }
 
-.menue {
-  /* display: flex;
-  justify-content: center; */
-  margin: 0 auto;
-  background-color: rgba(78, 78, 78, .8);
-  text-align: center;
+.menu, .place-order {
+  /* margin-top: .5rem; */
+  margin-left: 20%;
+  margin-bottom: 5rem;
   width: 30vw;
-  border-radius: 1rem;
 }
 
-.place-order {
-  margin: 0 1rem;
+::placeholder {
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-align: center;
+  font-size: 22pt;
+  color: red;
+  opacity: .5;
+}
+
+.place-order{
+  padding: 1rem;
   text-align: center;
   background-color: rgba(255, 238, 0, .8);
-  /* width: 30vw; */
   border-radius: 1rem;
 }
 
 #order-name {
-  background-color: none;
   text-align: center;
+  font-size: 24pt;
+  color: red;
+}
+
+#order-name:hover{
+  background-color: rgba(255, 0, 0, .5);
+  border-radius: 1rem;
+}
+
+.menu {
+  background-color: rgba(78, 78, 78, .9);
+  width: 30vw;
+  text-align: center;
+  color: rgb(224, 224, 224);
+  border-radius: 1rem;
+}
+
+.menu-items {
+  height: 50vh;
+  overflow-y: scroll;
 }
 
 li {
-  padding: 5px;
+  font-size: 22pt;
+  padding: 1rem;
   margin: 5px;
-  /* background: #faebd7; */
+}
+#order-btn {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 22pt !important;
+  margin: 1rem;
+  border: 1px solid;
+  padding: 1rem;
+  font-size: 20px;
 }
 
-.label {
-  font-weight: bold;
+#order-btn:hover {
+  background-color: rgba(255, 0, 0, .5);
 }
 
-/* .create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-} */
 
-/* .form-group {
-  margin-bottom: 5px;
-} */
+
+.devoure-status, .orders-btn, .history-btn, #order-btn {
+  border-radius: 1rem;
+  background-color: rgba(255, 249, 249,0);
+  
+}
+
+.devoure-status, .orders-btn, .history-btn {
+  margin-top: .25rem;
+  padding: .25rem 1rem;
+  color: rgb(224, 224, 224);
+  border: 1px solid white;
+}
+
+.orders-btn, .history-btn {
+  font-family: 'Annie Use Your Telescope', cursive;
+  margin-top: .5rem;
+  margin: .5rem 1rem;
+  font-size: 18pt;
+}
+
+.devoure-status {
+  font-size: 18pt !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.delete-order {
+  margin-left: 1rem;
+  padding: .25rem .25rem;
+  background-color: rgba(255, 249, 249,0);
+  border: 1px solid rgba(255, 113, 113,0);
+  border-radius: 2rem;
+  color: rgb(255, 113, 113);
+  font-size: 8pt !important;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 249, 249,.2);
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    font-size: 32pt;
+  }
+
+  main {
+    padding: 1rem 0;
+  }
+
+  .menu, .place-order {
+    margin: 1rem auto;
+    width: 90vw;
+  }
+
+  .menu {
+    height: 68vh;
+  }
+  .menu-items {
+    height: 60vh;
+  }
+}
