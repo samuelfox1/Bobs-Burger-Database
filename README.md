@@ -3,7 +3,7 @@
 
 >## Description 
 
-* A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
+* A restaurant order tracker with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
 * #### Story
     * AS A: business
     * I WANT: a website to track inventory form my database
@@ -29,6 +29,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./assets/utils/CodeOfConduct.md)
 <br>
 
+![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)![node.js](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)![handlebars.js](https://img.shields.io/badge/-handlebars.js-FF7D00)![MaterializeCSS](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)
 
 
 
@@ -37,18 +38,16 @@
 
 * [Check it out!](https://sf-bobs-burger-database.herokuapp.com/) 
 
-![Screenshot](.public/assets/images/screenshot.png)
+![Screenshot](./public/assets/images/screenshot.png)
 
 
 <br>
 
 >## Usage
 
-1. Enter a burger name to place an order
-2. Mark an order as picked up to place it in the order history
-3. 
-4. 
-5. 
+1. Enter a burger name to place an order.
+2. Click 'Pickup Order!' to mark the order as picked up, and place it in the history.
+3. When viewing the history, click 'Order Again!' to place the order back in the pick up list. Or click the red 'x' button to delete the order from history.
 
 <br>
 
@@ -60,17 +59,11 @@
 
 <br>
 
->## Testing
-
-* 
-
-<br>
-
 >## Questions
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./public/assets/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./public/assets/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
 
 <br>
 
