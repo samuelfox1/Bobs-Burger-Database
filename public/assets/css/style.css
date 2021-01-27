@@ -4,7 +4,7 @@ body {
 }
 
 main {
-  background-image: url('http://getwallpapers.com/wallpaper/full/d/1/7/158375.jpg');
+  background-image: url(../images/background.jpg);
   background-size: cover;
   height: 94vh;
   padding: 5rem 0;
